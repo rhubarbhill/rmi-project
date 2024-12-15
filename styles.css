@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Header Styles */
+header {
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Content Section */
+section {
+    padding: 2rem 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 3rem;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-small {
+    max-width: 220px; /* Adjust this value to make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 15px; /* Add space between the image and the text */
+    margin-bottom: 10px; /* Add space below the image if needed */
+}
+
+.img-med {
+    max-width: 240px; /* Adjust this value to make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 15px; /* Add space between the image and the text */
+    margin-bottom: 10px; /* Add space below the image if needed */
+}
+
+.img-big {
+    max-width: 800px; /* Adjust this value to make the image smaller */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 15px; /* Add space between the image and the text */
+    margin-bottom: 10px; /* Add space below the image if needed */
+}
+
+.blockquote {
+    color: gray;
+    font-style: italic;
+}
